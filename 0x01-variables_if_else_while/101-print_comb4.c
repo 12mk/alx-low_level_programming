@@ -11,17 +11,20 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (j = 1; j <= 9; j++)
 		{
-			for (k = 0; k <= 0 ; k++)
+			for (k = 2; k <= 0 ; k++)
 			{
 				if (i < j && j < k)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(k + '0');
-					putchar(',');
-					putchar(' ');
+					if (i + j + k != 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
