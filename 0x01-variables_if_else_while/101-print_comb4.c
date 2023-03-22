@@ -13,13 +13,13 @@ int main(void)
 	{
 		for (j = 1; j <= 9; j++)
 		{
-			for (k = 2; k <= 0 ; k++)
+			for (k = 2; k <= 9 ; k++)
 			{
 				if (i < j && j < k)
 				{
-					putchar(i + '0');
-					putchar(j + '0');
-					putchar(k + '0');
+					putchar('0' + i);
+					putchar('0' + j);
+					putchar('0' + k);
 					if (i + j + k != 24)
 					{
 						putchar(',');
