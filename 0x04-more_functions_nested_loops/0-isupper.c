@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_isupper - check if the given letter is upper case
- *@x: the number to be checked 
+ *@x: the number to be checked
  *Return: return 0 value
  */
 int _isupper(int x)
@@ -10,5 +10,5 @@ int _isupper(int x)
 	{
 		return (1);
 	}
-	return(0);
+	return (0);
 }
