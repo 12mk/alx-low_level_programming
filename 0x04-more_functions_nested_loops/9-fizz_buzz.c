@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  *main - the main function prints out buzzfuzz
- *Return: return 0 value
+ *Return: return 0 valuie
  */
 int main(void)
 {
 	int x;
 
-	for (x = 0; x <= 100; x++)
+	for (x = 1; x <= 100; x++)
 	{
 	if ((x % 5 == 0) && (x % 3 == 0))
 	{
