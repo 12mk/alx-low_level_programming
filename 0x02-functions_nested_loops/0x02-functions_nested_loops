@@ -1,14 +1,21 @@
 #include "main.h"
 /**
-*main - the main function to print out the alpahabets
+*print_alphabet_x10 - the function print out alphabet
 *Return: return 0 value
 */
-int main(void)
+void print_alphabet_x10(void)
 {
- char i;
-for (i = 'a', i <= 'z', i++)
-{
-_putchar(i);
+ 	char i;
+	int x;
+
+	for(x = 0; x <= 9; x++)
+	{
+	for (i = 'a'; i <= 'z'; i++)
+	{
+	_putchar(i);
+	}
+	_putchar('\n');
+	}
+	return(0);
 }
-_putchar('\n');
-}
+
