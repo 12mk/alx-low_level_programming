@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+*main - the main function to print out the alpahabets
+*Return: return 0 value
+*/
+int main(void)
+{
+ char i;
+for (i = 'a', i <= 'z', i++)
+{
+_putchar(i);
+}
+_putchar('\n');
+}
