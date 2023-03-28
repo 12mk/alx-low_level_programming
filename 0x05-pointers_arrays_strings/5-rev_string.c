@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *rev_string -the function reverse the string
+ *rev_string - the function reverse the string
  *@s: input string
  *Return: return the function
  */
@@ -10,9 +10,9 @@ void rev_string(char *s)
 	int counter = 0;
 	int i;
 
-	while (s[ccunter] != '\0')
+	while (s[counter] != '\0')
 		counter++;
-	for (i = 0; i < countter; i++)
+	for (i = 0; i < counter; i++)
 	{
 		counter--;
 		rev = s[i];
