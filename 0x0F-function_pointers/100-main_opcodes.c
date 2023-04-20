@@ -26,7 +26,7 @@ void print_opcodes(char *a, int n)
 */
 int main(int argc, char **argv)
 {
-	int i;
+	int n;
 
 	if (argc != 2)
 	{
