@@ -8,7 +8,7 @@
  * @...: A variable number of numbers to be printed.
  * return: return the value as 0
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n,...)
 {
 	va_list nums;
 	unsigned int index;
@@ -16,7 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_start(nums, n);
 	for (index = 0; index < n; index++)
 	{
-		printf("%d", va_arg(nums, int);
+		printf("%d", va_arg(nums, int));
 		if (index != (n - 1) && separator != NULL)
 		printf("%s", separator);
 	}
